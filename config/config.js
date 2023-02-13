@@ -1,0 +1,26 @@
+require('dotenv').config(); // this is important!
+module.exports = {
+
+    "development": {
+        "username": "postgres_usr",
+        "password": "P@y65Xrts",
+        "database": "postgres_db",
+        "host": "66.29.135.251",
+        "dialect": "postgres"
+    },
+    "test": {
+        "username": "postgres_usr",
+        "password": "P@y65Xrts",
+        "database": "postgres_db",
+        "host": "66.29.135.251",
+        "dialect": "postgres"
+    },
+    "production": {
+        "username": "postgres_usr",
+        "password": "P@y65Xrts",
+        "database": "postgres_db",
+        "host": "66.29.135.251",
+        "dialect": "postgres"
+    }
+
+}
